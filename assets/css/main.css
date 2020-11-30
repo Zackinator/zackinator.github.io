@@ -34,9 +34,14 @@ body {
 }
 
 ol, ul {
-	list-style: none;
+	list-style: square;
+  display: inline;
 }
-
+li{
+  padding: 30px;
+  margin: 30px;
+  font-size: 1.7em !important;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -178,8 +183,9 @@ input, select, textarea {
 	}
 
 	blockquote {
-    		text-align: center;
+    text-align: center;
 		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
+    border-top: solid 0.5em transparent;
 		font-style: italic;
 		padding: 5em 0 5em 2em;
 	}
@@ -2215,7 +2221,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			background-image: url("images/pic03.jpg");
 			content: '';
 			display: block;
 			height: 100%;
@@ -2343,7 +2349,7 @@ input, select, textarea {
 	}
 
 		ul.default li {
-			padding-left: 0.5em;
+			padding-left: 1em;
 		}
 
 /* Actions */
